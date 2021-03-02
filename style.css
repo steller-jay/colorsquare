@@ -1,0 +1,43 @@
+body {
+    background-color: #bbb;
+}
+
+h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #666;
+}
+
+.grid {
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 606px;
+    height: 606px;
+    border: solid #333 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 200px;
+    height: 200px;
+    border: solid #333 1px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
