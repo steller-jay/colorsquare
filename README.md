@@ -8,3 +8,5 @@ This first project is to satisfy a 'random quote generator' project for scrimba'
 Instead of a random quote, it selects a random color using the #nnn notation.  (#000 is black, #999 is light beige)
 
 The code loops through the squares and subtracts 50, so #488 becomes #438, then #388, etc.  This keeps the colors related and often alternating, which fits in with a 9-patch design.  
+
+You can play with the webpage here https://steller-jay.github.io/colorsquare/
