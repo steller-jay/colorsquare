@@ -5,9 +5,7 @@ This is my first iteration of some tools to help with quilt design.  I want to c
 
 This first project is to satisfy a 'random quote generator' project for scrimba's Beginning JavaScript course.
 
-Instead of a random quote, it selects a random color using the #nnn notation.  (#000 is black, #999 is light beige)
-
-The code loops through the squares and subtracts 50, so #488 becomes #438, then #388, etc.  This keeps the colors related and often alternating, which fits in with a 9-patch design.  
+Instead of a random quote, it selects a random color using RGB colors. The code loops through the squares and adds or subtracts from each of the RGB values. The colors are related, but can be more random if we 'wrap around' from 0 to 255.  Eventually, I'll iterate on this to select random fabrics, which are more limited in numbers. 
 
 You can play with the webpage here https://steller-jay.github.io/colorsquare/
 
